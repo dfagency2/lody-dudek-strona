@@ -3,17 +3,17 @@ import "./globals.css";
 import { BRAND, locations } from "@/data/content";
 
 export const metadata: Metadata = {
-  title: "Lody Dudek — Rzemieślnicze lody z pasją od 2017 | Tarnów, Mielec, Dąbrowa Tarnowska",
+  title: "Lody Dudek — Rzemieślnicze lody z pasją od 2017 | Mielec, Dąbrowa Tarnowska",
   description:
-    "Lody Dudek — rzemieślnicze lody z naturalnych składników. 26 smaków, torty lodowe, 5 lokali w Tarnowie, Mielcu i Dąbrowie Tarnowskiej. Zamów online na sklep.lodydudek.pl.",
+    "Lody Dudek — rzemieślnicze lody z naturalnych składników. 26 smaków, torty lodowe, lokale w Mielcu i Dąbrowie Tarnowskiej. Dowóz na trasie Mielec–Tarnów. Zamów online.",
   keywords: [
     "lody rzemieślnicze",
-    "lody Tarnów",
     "lody Mielec",
     "lody Dąbrowa Tarnowska",
+    "lody Tarnów dowóz",
     "torty lodowe",
     "lody naturalne",
-    "lodziarnia Tarnów",
+    "lodziarnia Mielec",
     "lody zamówienie online",
   ],
   authors: [{ name: "Lody Dudek" }],

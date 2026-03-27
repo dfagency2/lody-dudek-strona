@@ -15,8 +15,8 @@ export default function LocationsSection() {
             <span className="text-pink-500">w swoim mieście</span>
           </h2>
           <p className="text-muted text-lg max-w-xl mx-auto">
-            {locations.length} lokali w Tarnowie, Mielcu i Dąbrowie Tarnowskiej.
-            Czynne {BRAND.hours}.
+            {locations.length} lokale w Mielcu i Dąbrowie Tarnowskiej.
+            Czynne {BRAND.hours}. Dowóz na trasie Mielec–Tarnów.
           </p>
         </div>
 

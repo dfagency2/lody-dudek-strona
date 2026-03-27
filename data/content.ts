@@ -41,26 +41,6 @@ export interface Location {
 
 export const locations: Location[] = [
   {
-    id: "tarnow-rynek",
-    city: "Tarnów",
-    address: "ul. Wielkie Schody 1",
-    full: "ul. Wielkie Schody 1, Tarnów",
-    hours: "Pn–Nd 12:00–18:00",
-    mapEmbed:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2552.8!2d20.9984!3d50.0125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sWielkie+Schody+1%2C+Tarn%C3%B3w!5e0!3m2!1spl!2spl!4v1234567890",
-    mapLink: "https://maps.google.com/?q=Wielkie+Schody+1,+Tarnów",
-  },
-  {
-    id: "tarnow-jasna",
-    city: "Tarnów",
-    address: "ul. Jasna 65",
-    full: "ul. Jasna 65, Tarnów",
-    hours: "Pn–Nd 12:00–18:00",
-    mapEmbed:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2552.8!2d21.0100!3d50.0050!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sJasna+65%2C+Tarn%C3%B3w!5e0!3m2!1spl!2spl!4v1234567890",
-    mapLink: "https://maps.google.com/?q=Jasna+65,+Tarnów",
-  },
-  {
     id: "mielec-zygmuntowska",
     city: "Mielec",
     address: "ul. Zygmuntowska 1/8",

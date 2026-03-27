@@ -58,7 +58,7 @@ export default function HeroSection() {
             { value: "26", label: "smaków" },
             { value: "7+", label: "lat pasji" },
             { value: "4.9★", label: "Google" },
-            { value: "5", label: "lokali" },
+            { value: "3", label: "lokale" },
           ].map((stat) => (
             <div key={stat.label} className="text-center">
               <div className="text-2xl sm:text-3xl font-bold text-white">
