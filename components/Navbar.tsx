@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Image from "next/image";
+import Logo from "@/components/Logo";
 import { BRAND } from "@/data/content";
 
 const navLinks = [
@@ -51,12 +51,11 @@ export default function Navbar() {
           onClick={(e) => handleNavClick(e, "#hero")}
           className="flex items-center gap-2 flex-shrink-0"
         >
-          <Image
-            src="/logo.svg"
-            alt="Lody Dudek"
-            width={36}
-            height={36}
-            className="w-9 h-9"
+          <Logo
+            size={36}
+            className={`w-9 h-9 transition-colors ${
+              scrolled ? "text-ink" : "text-white"
+            }`}
           />
           <span
             className={`font-semibold text-base tracking-wide transition-colors ${

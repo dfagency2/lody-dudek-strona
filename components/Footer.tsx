@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Logo from "@/components/Logo";
 import { BRAND } from "@/data/content";
 
 export default function Footer() {
@@ -11,13 +11,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-2 mb-4">
-              <Image
-                src="/logo.svg"
-                alt="Lody Dudek"
-                width={32}
-                height={32}
-                className="w-8 h-8"
-              />
+              <Logo size={32} className="w-8 h-8 text-white" />
               <span className="text-white font-semibold">{BRAND.name}</span>
             </div>
             <p className="text-sm leading-relaxed mb-6 max-w-xs">
