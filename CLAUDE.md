@@ -67,6 +67,19 @@ Do podmiany na własne: zmień URL w `data/content.ts` (heroImage, aboutImages, 
 - Branch: main
 - Po każdej zmianie: `git add . && git commit -m "..." && git push origin main`
 
+## CHANGELOG — obowiązkowe zasady
+
+**Przy każdym commicie Claude MUSI zaktualizować `CHANGELOG.md`.**
+
+- Każda zmiana kodu = wpis w CHANGELOG przed commitem
+- Nowe zmiany trafiają pod sekcję `## [Unreleased]`
+- Po deployu na produkcję — przenieś wpisy z `[Unreleased]` pod datę `## YYYY-MM-DD`
+- Format wpisu:
+  ```
+  ### Dodano / Naprawiono / Zmieniono / Usunięto
+  - Krótki opis zmiany (co i dlaczego)
+  ```
+
 ## Sklep
 Sklep działa osobno pod: https://sklep.lodydudek.pl
 Repo: https://github.com/dfagency2/lody-dudek-sklep
